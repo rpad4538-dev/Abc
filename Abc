@@ -1,0 +1,5 @@
+local args = {
+	"Basic Crate",
+	1000
+}
+game:GetService("ReplicatedStorage"):WaitForChild("ModuleLoader"):WaitForChild("Shared"):WaitForChild("Network"):WaitForChild("RemoteFunction"):WaitForChild("SummonTowers"):InvokeServer(unpack(args))
